@@ -1,10 +1,11 @@
 import bluetooth
 
 # MAC address of the remote device to connect to
-server_mac_address = '00:11:22:33:44:55'
+server_mac_address = '28:bd:89:bd:1b:b6'
 
 # Port number to use for the Bluetooth connection
-port = 1
+port = 8
+# tinker içinde 10 olmalı
 
 # Create a Bluetooth socket and connect to the remote device
 sock = bluetooth.BluetoothSocket(bluetooth.RFCOMM)
